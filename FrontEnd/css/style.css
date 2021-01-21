@@ -311,6 +311,8 @@ a {
 	width: 22%;
     margin: 0 auto;
 	font-weight: bold;
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	text-decoration-color: goldenrod;
 }
 
 .service_main{
@@ -372,6 +374,7 @@ a {
 
 .quote_text{
 	color: #ffffff;
+	
 	width: 100%;
 	float: left;
 }
@@ -381,7 +384,7 @@ a {
 	width: 100%;
 	float: left;
 	margin: 0px;
-
+	
 }
 
 .quote_btn{
@@ -397,7 +400,8 @@ a {
 	width: 100%;
     padding-top: 57px;
     margin-bottom: 47px;
-    display: inline-block !important;
+	display: inline-block !important;
+	font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 .touch_text{
@@ -457,6 +461,7 @@ a {
 	float: left;
 	background-color: #ffffff;
 	padding-top: 40px;
+	font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 .contact_section_2{
