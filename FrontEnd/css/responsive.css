@@ -209,7 +209,7 @@ width: 41%;
     width: 75%;}
 }
 
-.banner-main { padding-bottom: 120px;}
+.banner-main { padding-bottom: 120px; }
 .contact_section_2 { width: 80%;}
 .creative_text { width: 70%;}
 .service_text { width: 32%;}
@@ -286,6 +286,7 @@ width: 55%;
 .btn-primary {max-width: 126px;
 margin-right: 2px;
 font-size: 14px;}
+.banner-main{background-size: 700px; background-position: top; padding-top: 10px;}
 .banner-main .carousel-caption h1 {font-size: 30px;
 line-height: 38px;}
 .titlepage h2 {
