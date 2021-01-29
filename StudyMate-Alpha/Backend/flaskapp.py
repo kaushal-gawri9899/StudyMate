@@ -110,6 +110,17 @@ def ContactLogOutHandler():
 def AboutLogOutHandler():
 	return render_template("aboutLog.html")
 
+@app.route("/faq.html")
+def FaqHandler():
+	return render_template("faq.html")
+
+@app.route("/faqLog.html")
+def FaqLogHandler():
+	return render_template("faqLog.html")
+
+@app.route("/faq")
+def FaqNewHandler():
+	return render_template("faqLog.html")
 
 if __name__ == "__main__":
     app.run(ssl_context='adhoc')
