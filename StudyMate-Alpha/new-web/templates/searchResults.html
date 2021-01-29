@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!-- basic -->
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<!-- mobile metas -->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="viewport" content="initial-scale=1, maximum-scale=1">
+<!-- site metas -->
+<title>StudyMate</title>
+<meta name="keywords" content="">
+<meta name="description" content="">
+<meta name="author" content="">	
+<!-- bootstrap css -->
+<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+<!-- style css -->
+<link rel="stylesheet" type="text/css" href="css/style.css">
+<!-- Responsive-->
+<link rel="stylesheet" href="css/responsive.css">
+<link rel="stylesheet" href="css/searchResults.css">
+<!-- fevicon -->
+<link rel="icon" href="images/fevicon.png" type="image/gif" />
+<!-- Scrollbar Custom CSS -->
+<link rel="stylesheet" href="css/jquery.mCustomScrollbar.min.css">
+<!-- Tweaks for older IEs-->
+<link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css">
+<!-- owl stylesheets --> 
+<link rel="stylesheet" href="css/owl.carousel.min.css">
+<link rel="stylesheet" href="css/owl.theme.default.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.css" media="screen">
+
+</head>
+<!-- body -->
+<body>
+	<!-- <div class="header_main">
+		<div class="container">
+			<div class="logo"><a href="index.html"><img src="images/logo.png"></a></div>
+		</div>
+	</div>
+	</div> -->
+	<div class="header">
+		<div class="container">
+        <!--  header inner -->
+            <div class="col-sm-12">
+                 
+                 <div class="menu-area">
+                    <nav class="navbar navbar-expand-lg ">
+                        <!-- <a class="navbar-brand" href="#">Menu</a> -->
+<button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                       <i class="fa fa-bars"></i>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                            <ul class="navbar-nav mr-auto">
+                                <!-- <li class="logo-image"><a class="nav-link" href='#'><img src="images/mymylogo.png" ></a></li> -->
+                                <li class="front"><a href="#"><img src="images/search-icon.png" alt="icon"></a></li>
+                                <li class="nav-item active">
+                                <a class="nav-link" href="home.html">HOME<span class="sr-only">(current)</span></a> </li>
+                               <!-- <li class="nav-item">
+                                <a class="nav-link" href="about.html">ABOUT</a></li> -->
+                               <li class="nav-item">
+                                <a class="nav-link" href="service.html">SERVICES</a></li>
+                               <li class="#" href="#">
+      	                        <a class="nav-link" href="blog.html">BLOG</a></li>
+                               <li class="nav-item" href="#">
+                                  <a class="nav-link" href="contact.html">CONTACT</a></li>
+                                  <li class="nav-item" href="#">
+                                    <a class="nav-link" href="https://studymate.auth.ap-south-1.amazoncognito.com/login?client_id=6hm3sm57aquuqgtckfb8l7ld9q&response_type=code&scope=aws.cognito.signin.user.admin+email+openid+profile&redirect_uri=https://guestbook-s3777121.uc.r.appspot.com/">SIGN UP</a></li>
+                               
+                               <li class="last"><a class="nav-link" href='#'><img src="images/logo-final.png" ></a></li>
+                            </ul>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </div> 
+    </div>
+
+<div class="back">
+    <div class="backBody">
+<div class="table-users">
+    <div class="resHeader" style="font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif">Search Results</div>
+    
+    <table cellspacing="0">
+       <tr>
+          <th>Picture</th>
+          <th>Phone</th>
+          <th>University</th>
+          <th>Organization</th>
+          <th>Email</th>
+          <th width=230px>Name</th> 
+       </tr>
+
+ 	{% for dict_item in result %}
+       <tr>
+          <td><img class="newImg" src="images/proficon.png" style="height: 60px; width: 60px; border-radius: 50%;" alt="" /></td>
+{% for key, value in dict_item.items()%}
+{% if key=="name" or key=="email" or key=="phoneNumber" or key=="university" or key=="organization" %}          
+<td style="font-family:Verdana, Geneva, Tahoma, sans-serif;"> {{ value }} </td>
+{%endif%}
+{%endfor%}
+          <!--<td>jane.doe@foo.com</td>
+          <td>01 800 2000</td>
+          <td >University</td>
+          <td style="padding-left: 15px;">Organization</td>
+		-->       
+</tr>
+{% endfor %}
+
+</table>
+ </div>
+    </div>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+</div>
+    <div class="copyright">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+                   <p class="copyright_text">© 2021 All Rights Reserved. <a href="https://html.design">StudyMate INC</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+      <!-- Javascript files-->
+      <script src="js/jquery.min.js"></script>
+      <script src="js/popper.min.js"></script>
+      <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
