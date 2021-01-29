@@ -1,0 +1,62 @@
+<html>
+<body>
+<!--	<table>
+	{% for dict_item in result %}
+		{% for key, value in dict_item.items()%}
+		<tr>
+			<th> {{ key }} </th>
+			<td> {{ value }} </td>
+		</tr>
+		{% endfor %}
+	{% endfor %}
+	</table> -->
+
+<!--{% for dict_item in result %}
+	{% for key, value in dict_item.items()%}
+
+	<div id="login-container">
+  	<div class="profile-img"></div>
+  	<h1>
+	{% if key == "name" %}
+    		{{ value }}
+	{% endif %}
+  	</h1>
+{% endfor %}
+{% endfor %}
+-->
+{% for dict_item in result %}
+	<div id="login-container">
+	<div class ="profile-img"></div>
+	<h1>
+			
+	</h1>	
+  	<div class="description">
+   	<!-- Maddie is a front end web developer in New York. She has worked in the field for 10 years now. Check out her projects in the links below. She is available for hire as well. -->
+	{% for key, value in dict_item.items()%}
+	{%if key != "id"%}
+	<th>	{{ key }} </th>	
+	<td>	{{ value }}</td>
+	{%endif%}	
+{% endfor %}
+
+  	</div>
+  		<div class="social">
+    			<a>GitHub</a>
+    			<a>Twitter</a>
+    			<a>LinkedIn</a>
+  			</div>
+  			<button>Hire Me</button>
+  			<footer>
+    			<div class="likes">
+      			<p><i class='fa fa-heart'></i></p>
+      			<p>1.5K</p>
+    			</div>
+    			<div class="projects">
+      			<p>Projects</p>
+      			<p>154</p>
+    			</div>
+  			</footer>
+		</div>
+	{% endfor %}
+</body>
+</html>
