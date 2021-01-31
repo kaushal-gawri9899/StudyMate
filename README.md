@@ -1,4 +1,4 @@
-# ![](file:///D:\Cloud-Computing-Summer-Sem\FrontEnd\web\static\images\logo-update.png)
+# ![](FrontEnd/images/logo-update.png)
 
 ## :pencil: ABOUT STUDYMATE
 ![](file:///D:\Cloud-Computing-Summer-Sem\StudyMate-Docs-Images\User-Manual\HomeScreen2.png)
