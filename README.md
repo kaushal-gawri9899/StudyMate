@@ -1,7 +1,7 @@
 # ![](FrontEnd/images/logo-update.png)
 
 ## :pencil: ABOUT STUDYMATE
-![](file:///D:\Cloud-Computing-Summer-Sem\StudyMate-Docs-Images\User-Manual\HomeScreen2.png)
+![](Documentation/StudyMate-Docs-Images/User-Manual/HomeScreen2.png)
 StudyMate, a web application focussed on targeting a wide diversity of students and working professionals with the goal of helping each other out to not only grow professionally but individually as well, and build a better community. StudyMate focusses on helping users to build a better network by providing certain services that help users identify their dream university or dream job based on personal experiences of other users, present all around the globe. It provides you with multiple chat rooms, the public chat rooms where a person can just virtually hangout with their “Study-Mates” or the private chat rooms where a person can schedule a personal meet up to clear certain queries, hold a career building workshop or provide a road map to other users by sharing their experiences. StudyMate helps you keep your profile updated around your network that helps them make most of the opportunities. It offers you a quick search feature, through which you can search for users based on particular university or organization. That’s being said we provide great customer services, be it our virtual assistant, Oliver, that can certainly answer some of your questions that you might have, or our FAQ page that already answers some of your questions. We are in our alpha phase and certainly looking to add on better features.
 
 ##  :hammer: Services
