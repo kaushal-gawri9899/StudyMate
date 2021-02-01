@@ -40,5 +40,5 @@ Switching to a new platform specifically when you've whole bunch of other tasks 
 ![](https://img.shields.io/badge/Database-DynamoDB-informational?style=flat&logo=data:image/svg%2bxml;base64,<BASE64_DATA>)
 
 
-
+### To access StudyMate meeting, go to StudyMate-Alpha/StudyMate-Meeting/dist that uses Chime-SDK provided by AWS
 
