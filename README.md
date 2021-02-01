@@ -1,4 +1,4 @@
-# ![](FrontEnd/images/logo-update.png)
+# ![](StudyMate-Alpha/new-web/static/images/logo-update.png)
 
 ### https://studymate.gq
 
