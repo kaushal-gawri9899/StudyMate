@@ -1,6 +1,6 @@
 # ![](StudyMate-Alpha/new-web/static/images/logo-update.png)
 
-### https://studymate.gq
+### https://ec2-65-2-39-144.ap-south-1.compute.amazonaws.com/
 
 ## :pencil: ABOUT STUDYMATE
 
